@@ -1,0 +1,606 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Recursive', sans-serif;
+  background-color: tomato;
+  padding-top: 50px;
+  background-color: black;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-header {
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  line-height: 80px;
+  text-align: right;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0;
+  list-style-type: none;
+}
+
+.main-nav li {
+  display: block;
+  width: 200px;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.main-background {
+  width: 50%;
+  background-color: black;
+  height: 800px;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+
+.main-background p {
+  width: 100px;
+  font-size: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wish {
+
+  filter: blur(0px);
+  text-shadow: 1px 1px #54545c;
+}
+
+.you {
+
+  filter: blur(0px);
+  text-shadow: 1px 1px #54545c;
+}
+
+.were {
+
+  filter: blur(0px);
+  text-shadow: 1px 1px #54545c;
+}
+
+.here {
+
+  filter: blur(0px);
+  text-shadow: 1px 1px #54545c;
+}
+
+.main-content {
+  width: 50%;
+  background-color: black;
+  height: 800px;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.main-content img {
+  width: 500px;
+}
+
+.main-content h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.disc-header {
+  width: 100%;
+  background-color: black;
+  background-image: url('../img/disc-background-001.jpg');
+  background-position: center;
+  height: 500px;
+}
+
+.album-hero {
+  width: 100%;
+  max-width: 1220px;
+  text-align: left;
+  background-color: black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.album-hero-toggle {
+  margin: 0;
+  text-shadow: 2px 2px #000;
+  padding-top: 7px;
+}
+
+.img-hover {
+  height: 400px;
+  overflow: hidden;
+}
+
+.img-hover img {
+  transition: transform .5s ease;
+}
+
+.img-hover:hover img {
+  transform: scale(1.1);
+}
+
+.album-container-0 {
+  max-width: 1250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0px 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.album-container-1 {
+  max-width: 1250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0px 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.album-1 {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.album-1 img {
+  width:100%;
+  text-align: center;
+}
+
+.album-1-a {
+  padding: 0 10px 10px 10px;
+}
+
+.album-1-a h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.album-1-a h3:nth-of-type(1) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-1-a h3:nth-of-type(2) {
+  margin: 0;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.rodeo-track-listing {
+  display: none;
+}
+
+.album-2 {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.album-2 img {
+ width:100%;
+}
+
+.album-2-a {
+  padding: 0 10px 10px 10px;
+}
+
+.album-2-a h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.album-2-a h3:nth-of-type(1) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-2-a h3:nth-of-type(2) {
+  margin: 0;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.album-2-a p {
+  margin: 0;
+  padding: 0 0 5px 0;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.album-2-a p img {
+  width: 20px;
+  vertical-align: middle;
+}
+
+.birds-track-listing {
+  display: none;
+}
+
+.album-3 {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.album-3 img {
+  width:100%;
+}
+
+.album-3-a {
+  padding: 0 10px 10px 10px;
+}
+
+.album-3-a h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.album-3-a h3:nth-of-type(1) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-3-a h3:nth-of-type(2) {
+  margin: 0;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.astroworld-track-listing {
+  display: none;
+}
+
+.album-3-a p {
+  margin: 0;
+  padding: 0 0 5px 0;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.album-3-a p img {
+  width: 20px;
+  vertical-align: middle;
+}
+
+.album-hero-2 {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 100px;
+}
+
+.album-container-2 {
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.album-hero-toggle-2 {
+  margin: 0;
+  padding-top: 27px;
+  text-shadow: 2px 2px #000;
+}
+
+.album-4 {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.album-4-a {
+  padding: 0 10px 10px 10px;
+}
+
+.album-4-a h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.album-4-a h3:nth-of-type(1) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-4-a h3:nth-of-type(2) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-4-a h3:nth-of-type(3) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-4-a p {
+  margin: 0;
+  padding: 0 0 5px 0;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.album-4-a p img {
+  width: 20px;
+  vertical-align: middle;
+}
+
+
+.album-4 img {
+  width:100%;
+}
+
+.jackboys-track-listing {
+  display: none;
+}
+
+.album-5 {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.album-5-a {
+  padding: 0 10px 10px 10px;
+}
+
+.album-5-a h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.album-5-a h3:nth-of-type(1) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-5-a h3:nth-of-type(2) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-5-a h3:nth-of-type(3) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-5-a p {
+  margin: 0;
+  padding: 0 0 5px 0;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.album-5-a p img {
+  width: 20px;
+  vertical-align: middle;
+}
+
+
+.album-5 img {
+  width:100%;
+}
+
+.hunchojack-track-listing {
+  display: none;
+}
+
+.album-6 {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.album-6-a {
+  padding: 0 10px 10px 10px;
+}
+
+.album-6-a h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.album-6-a h3:nth-of-type(1) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-6-a h3:nth-of-type(2) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-6-a h3:nth-of-type(3) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-6-a p {
+  margin: 0;
+  padding: 0 0 5px 0;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.album-6-a p img {
+  width: 20px;
+  vertical-align: middle;
+}
+
+
+.album-6 img {
+  width:100%;
+}
+
+.album-7 {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.album-7-a {
+  padding: 0 10px 10px 10px;
+}
+
+.album-7-a h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.album-7-a h3:nth-of-type(1) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-7-a h3:nth-of-type(2) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-7-a h3:nth-of-type(3) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-7-a p {
+  margin: 0;
+  padding: 0 0 5px 0;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.album-7-a p img {
+  width: 20px;
+  vertical-align: middle;
+}
+
+
+.album-7 img {
+  width:100%;
+}
+
+.album-8 {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.album-8-a {
+  padding: 0 10px 10px 10px;
+}
+
+.album-8-a h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.album-8-a h3:nth-of-type(1) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-8-a h3:nth-of-type(2) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-8-a h3:nth-of-type(3) {
+  margin: 0;
+  font-size: 16px;
+}
+
+.album-8-a p {
+  margin: 0;
+  padding: 0 0 5px 0;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.album-8-a p img {
+  width: 20px;
+  vertical-align: middle;
+}
+
+
+.album-8 img {
+  width:100%;
+  height: 400;
+}
+
+.main-tour {
+  color: white;
+  text-align: center;
+}
+
+.tour-child {
+  padding-top: 300px;
+  display: inline-block;
+  text-align: left;
+}
