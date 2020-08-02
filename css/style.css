@@ -114,8 +114,7 @@ a {
 
 .disc-header {
   width: 100%;
-  background-color: black;
-  background-image: url('../img/disc-background-001.jpg');
+  background: url('../img/disc-background-001.jpg');
   background-position: center;
   height: 500px;
 }
